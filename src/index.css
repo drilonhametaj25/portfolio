@@ -132,6 +132,11 @@
   transform: translateZ(0);
 }
 
+.bg-tertiary{
+  background-color: #bf61ff36;
+  border: 1px solid #bf61ff;
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {
