@@ -47,6 +47,13 @@ import www from './company/www.png'
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import chatbot from "./chatbot.png";
+import cryptoexchange from "./cryptoexchange.png";
+import dricoin from "./dricoin.jpeg";
+import flappybird from "./flappybird.jpeg";
+import instagrambot from "./instagrambot.webp";
+import jarvis from "./jarvis.webp";
+import pegasoworld from "./pegasoworld.png";
 
 
 export {
@@ -94,5 +101,12 @@ export {
   php,
   python,
   solidity,
-  wordpress
+  wordpress,
+  chatbot,
+  cryptoexchange,
+  dricoin,
+  flappybird,
+  instagrambot,
+  jarvis,
+  pegasoworld
 };

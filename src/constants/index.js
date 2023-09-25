@@ -39,7 +39,14 @@ import {
     nextjs,
     elasticsearch,
     solidity,
-    ganache
+    ganache,
+    flappybird,
+    jarvis,
+    chatbot,
+    instagrambot,
+    cryptoexchange,
+    dricoin,
+    pegasoworld
   } from "../assets";
   
   export const navLinks = [
@@ -208,67 +215,127 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "AI play Flappy Bird",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A Flappy-Bird-like game played by an IA. The software has been made using Pygame and Neat",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "neat",
           color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
+        }
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: flappybird,
+      source_code_link: "https://github.com/drilon-hametaj/FlappyBird",
     },
     {
-      name: "Job IT",
+      name: "Jarvis AI Assistant",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A personal Assistant like Siri or Alexa",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "selenium",
           color: "green-text-gradient",
         },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: jarvis,
+      source_code_link: "https://github.com/drilon-hametaj/jarvis",
     },
     {
-      name: "Trip Guide",
+      name: "ChatBot",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "ChatBot using Deep Learning with regression. Using Tensorflow, Numpy",
       tags: [
         {
-          name: "nextjs",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "tensorflow",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "numpy",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: chatbot,
+      source_code_link: "https://github.com/drilon-hametaj/ChatBot",
+    },
+    {
+      name: "Instagram Bot",
+      description:
+        "Bot for Instagram that simulate person actions",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "selenium",
+          color: "green-text-gradient",
+        },
+      ],
+      image: instagrambot,
+      source_code_link: "https://github.com/drilon-hametaj/instagram",
+    },
+    {
+      name: "Crypto Exchange",
+      description:
+        "This want to be the first crypto exchange that I crate by watching the Dapp University tutorial",
+      tags: [
+        {
+          name: "solidity",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "react",
+          color: "green-text-gradient",
+        },
+        {
+          name: "truffle",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "web3",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: cryptoexchange,
+      source_code_link: "https://github.com/drilonhametaj25/crypto-exchange",
+    },
+    {
+      name: "Dricoin",
+      description:
+        "My personal coin for BNB blockchain",
+      tags: [
+        {
+          name: "solidity",
+          color: "blue-text-gradient",
+        }
+      ],
+      image: dricoin,
+      source_code_link: "#",
+    },
+    {
+      name: "PegasoWorld",
+      description:
+        "I develop and maintain this website for one of the best miniatures company in the world",
+      tags: [
+        {
+          name: "wordpress",
+          color: "blue-text-gradient",
+        }
+      ],
+      image: pegasoworld,
+      source_code_link: "https://pegasoworld.com",
     },
   ];
   
