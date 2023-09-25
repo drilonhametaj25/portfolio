@@ -20,15 +20,34 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import angular from "./tech/angular.png";
+import dart from "./tech/dart.webp";
+import elasticsearch from "./tech/elasticsearch.svg";
+import flutter from "./tech/flutter.png";
+import ganache from "./tech/ganache.png";
+import gitlab from "./tech/gitlab.png";
+import laravel from "./tech/laravel.png";
+import mysql from "./tech/mysql.png";
+import nextjs from "./tech/nextjs.png";
+import php from "./tech/php.png";
+import python from "./tech/python.png";
+import solidity from "./tech/solidity.png";
+import wordpress from "./tech/wordpress.png";
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import mg from './company/mg.jpeg'
+import dinamo from './company/dinamo.jpeg'
+import eng from './company/eng.jpeg'
+import www from './company/www.png'
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
 
 export {
   logo,
@@ -59,4 +78,21 @@ export {
   carrent,
   jobit,
   tripguide,
+  mg,
+  dinamo,
+  eng,
+  www,
+  angular,
+  dart,
+  elasticsearch,
+  flutter,
+  ganache,
+  gitlab,
+  laravel,
+  mysql,
+  nextjs,
+  php,
+  python,
+  solidity,
+  wordpress
 };

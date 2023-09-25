@@ -23,6 +23,23 @@ import {
     jobit,
     tripguide,
     threejs,
+    mg,
+    eng,
+    dinamo,
+    www,
+    gitlab,
+    mysql,
+    php,
+    laravel,
+    python,
+    flutter,
+    dart,
+    wordpress,
+    angular,
+    nextjs,
+    elasticsearch,
+    solidity,
+    ganache
   } from "../assets";
   
   export const navLinks = [
@@ -46,47 +63,23 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Cloud Architecture",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Blockchain Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Wordpress Expert",
       icon: creator,
     },
   ];
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
     },
     {
       name: "Node JS",
@@ -97,76 +90,93 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
+      name: "GitLab",
+      icon: gitlab,
     },
     {
       name: "docker",
       icon: docker,
     },
+    {
+      name: "MySql",
+      icon: mysql,
+    },
+    {
+      name: "Laravel",
+      icon: laravel,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "Wordpress",
+      icon: wordpress,
+    },
+    {
+      name: "Angular",
+      icon: angular,
+    },
+    {
+      name: "Next.js",
+      icon: nextjs,
+    },
+    {
+      name: "ElasticSearch",
+      icon: elasticsearch,
+    },
+    {
+      name: "Solidity",
+      icon: solidity,
+    },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Junior Web Developer",
+      company_name: "Freelancer",
+      icon: www,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "January 2014 - April 2017",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing and maintaining web applications for local activities like restaurants and pizzeria"
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Full-Stack Developer",
+      company_name: "MG Group Italia",
+      icon: mg,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "July 2018 - September 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing and maintaining web applications using PHP, Symfony, Twig, Laravel and MySql DB.",
+        "I take care of the project from its initial conception, prototyping, development, polishing, till publication, working alongside the customer, always trying to find the best solution according to the customer's needs.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Full-Stack Developer",
+      company_name: "Dinamo Digitale",
+      icon: dinamo,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "September 2020 - February 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing and maintaining web applications using Angular, Node.js and MongoDB.",
+        "Natural Language Processing (NLP) with Bert for big project with AI",
+        "Development of web portals for large customers, using the latest technologies. Integrated with machine learning algorithms"
       ],
     },
+    {
+      title: "Software Developer Specialist",
+      company_name: "Engineering Ingegneria Informatica",
+      icon: eng,
+      iconBg: "#383E56",
+      date: "March 2022 - Present",
+      points: [
+        "Software developer for Stellantis. I created an engine to calculate cars' prices considering the peculiarities of each market of the world",
+        "Using JAVA SpringBoot, PHP, Angular and MySql DB",
+        "Learning how to develop and manage a world wide web project",
+      ],
+    }
   ];
   
   const testimonials = [
